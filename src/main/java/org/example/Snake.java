@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.awt.Point;
 
 public class Snake {
-    private ArrayList<Point> body = new ArrayList<Point>();
+    public ArrayList<Point> body = new ArrayList<Point>();
     Direction direction;
     boolean alive = true;
 

@@ -5,14 +5,14 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class GameRules {
-    private int mapSize;
-    private int wallSize;
-    private int allFoodCount;
-    private int snakeSpawnSize;
+    public int mapSize;
+    public int wallSize;
+    public int allFoodCount;
+    public int snakeSpawnSize;
 
-    private int squareWallCountMax;
-    private int straightWallCountMax;
-    private int singleWallCountMax;
+    public int squareWallCountMax;
+    public int straightWallCountMax;
+    public int singleWallCountMax;
 
     GameRules(){
         Properties properties = new Properties();
@@ -20,7 +20,7 @@ public class GameRules {
         try (
                 FileInputStream fileInputStream = new FileInputStream("gameRules.properties")) {
             properties.load(fileInputStream);
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
