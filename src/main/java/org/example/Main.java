@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.server.MyServer;
+import org.example.server.Server;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 

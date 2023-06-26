@@ -1,12 +1,9 @@
-package org.example;
-
-import org.jetbrains.annotations.NotNull;
+package org.example.game;
 
 import java.awt.Point;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
